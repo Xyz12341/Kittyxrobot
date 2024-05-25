@@ -48,7 +48,7 @@ async def github(_, message):
 ๏ ғᴏʟʟᴏᴡᴇʀs ➠ {followers}
 ๏ ғᴏʟʟᴏᴡɪɴɢ ➠ {following}
 
-๏ ᴍᴀᴅᴇ ʙʏ ➠ [🇲σ᭡፝֟ɳ🌙](https://t.me/Moonshining2)"""
+๏ ᴍᴀᴅᴇ ʙʏ ➠ [🇲σ᭡፝֟ɳ🌙](https://t.me/Moonshining3)"""
             except Exception as e:
                 await message.reply(f"#ERROR {e}")
                   
