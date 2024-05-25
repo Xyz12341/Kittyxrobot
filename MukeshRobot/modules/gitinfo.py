@@ -9,13 +9,13 @@ from MukeshRobot.utils.errors import capture_err
 @capture_err
 async def github(_, message):
     if len(message.command) != 2:
-        return await message.reply_text("/github {username} \n`/github Noob-Mukesh`")
+        return await message.reply_text("/github {username} \n`/github kittyxbug`")
     username = message.text.split(None, 1)[1]
     URL = f"https://api.github.com/users/{username}"
     async with ClientSession() as session:
         async with session.get(URL) as request:
             if request.status == 404:
-                return await message.reply_text("404")
+                return await message.reply_text("❍ ʙᴏsᴅᴋ sᴀʜɪ ɢɪᴛʜᴜʙ ᴜsᴇʀɴᴀᴍᴇ ᴅᴀᴀʟ.")
             result = await request.json()
             try:
                 url = result["html_url"]
@@ -32,28 +32,34 @@ async def github(_, message):
                 global Mukesh
                 Mukesh = [[
             InlineKeyboardButton(text="ᴘʀᴏғɪʟᴇ ʟɪɴᴋ", url=url),
-            InlineKeyboardButton("Cʟᴏsᴇ",callback_data="close_reply")
+            InlineKeyboardButton("ᴄʟᴏsᴇ",callback_data="close_reply")
             ]]     
-                caption = f"""**Iɴғᴏ Oғ {name}**
-**ᴜsᴇʀɴᴀᴍᴇ :** `{username}`
-**ʙɪᴏ :** `{bio}`
-**ᴄᴏᴍᴘᴀɴʏ :** `{company}`
-**ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:** `{created_at}`
-**ʀᴇᴘᴏsɪᴛᴏʀɪᴇs :** `{repositories}`
-**ʙʟᴏɢ :** `{blog}`
-**ʟᴏᴄᴀᴛɪᴏɴ :** `{location}`
-**ғᴏʟʟᴏᴡᴇʀs  :** `{followers}`
-**ғᴏʟʟᴏᴡɪɴɢ :** `{following}`"""
+                caption = f"""ㅤㅤ✦ ɢɪᴛʜᴜʙ ɪɴғᴏ ᴏғ {name} ✦
+                 
+•❅─────✧❅✦❅✧─────❅•
+๏ ᴜsᴇʀɴᴀᴍᴇ ➠ {username}
+๏ ʙɪᴏ ➠ {bio}
+๏ ʟɪɴᴋ ➠ [Here]({url})
+๏ ᴄᴏᴍᴩᴀɴʏ ➠ {company}
+๏ ᴄʀᴇᴀᴛᴇᴅ ᴏɴ ➠ {created_at}
+๏ ʀᴇᴩᴏsɪᴛᴏʀɪᴇs ➠ {repositories}
+๏ ʙʟᴏɢ ➠ {blog}
+๏ ʟᴏᴄᴀᴛɪᴏɴ ➠ {location}
+๏ ғᴏʟʟᴏᴡᴇʀs ➠ {followers}
+๏ ғᴏʟʟᴏᴡɪɴɢ ➠ {following}
+
+๏ ᴍᴀᴅᴇ ʙʏ ➠ [🇲σ᭡፝֟ɳ🌙](https://t.me/Moonshining2)"""
             except Exception as e:
                 await message.reply(f"#ERROR {e}")
                   
     await message.reply_photo(photo=avatar_url, caption=caption,reply_markup=InlineKeyboardMarkup(Mukesh))
 
 
-__mod_name__ = "Gɪᴛʜᴜʙ"
+__mod_name__ = "ɢɪᴛʜᴜʙ"
 
 __help__ = """
-ᴘʀᴏᴠɪᴅᴇs ʏᴏᴜ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ɢɪᴛʜᴜʙ ᴘʀᴏғɪʟᴇ. 
+ ❍ ᴘʀᴏᴠɪᴅᴇs ʏᴏᴜ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ɢɪᴛʜᴜʙ ᴘʀᴏғɪʟᴇ. 
 
- ❍ /github <ᴜsᴇʀɴᴀᴍᴇ> *:* ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ɢɪᴛʜᴜʙ ᴜsᴇʀ.
+ ❍ /github <ᴜsᴇʀɴᴀᴍᴇ> *➛* ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ɢɪᴛʜᴜʙ ᴜsᴇʀ.
 """
+                
