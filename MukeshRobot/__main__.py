@@ -423,7 +423,7 @@ For more info about kitty updates check website 🎄👀""",
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👩‍💻 Developer 👩‍💻", callback_data="moon""
+                            text="👩‍💻 Developer 👩‍💻", callback_data="moon"
                         ),
                         InlineKeyboardButton(
                             text="💡 Github 💡", url="t.me/herokue_cc"
