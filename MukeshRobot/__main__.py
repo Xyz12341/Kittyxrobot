@@ -78,7 +78,7 @@ PM_START_TEXT = """
 *ʜᴇʏ* {} , 🥀
 
 
-This is {BOT_NAME},
+This is ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼,
 A powerful stable and cute telegram music and management bot.
 """
 
@@ -592,7 +592,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
         query.message.edit_caption(f"""━━━━━━━━━━━━━━━━━━━━
 ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɴᴏᴡ :
 🎉 ᴄᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴꜱ 🎉
-[{BOT_NAME}]("https://t.me/{BOT_USERNAME}") ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ
+[˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼]("https://t.me/{BOT_USERNAME}") ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ
 ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
 ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ :
@@ -1088,7 +1088,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-✨ㅤ{BOT_NAME} I am alive 🖤!
+✨ㅤ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼ I am alive 🖤!
 
 {BOT_NAME} system stats :
 
@@ -1097,7 +1097,7 @@ def main():
 **❄️  Cpu:** `{tlhver}`
 **🔮  Disk:** `{pyrover}`
 
-Made {BOT_NAME} with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀
+Made ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
             )
