@@ -466,7 +466,7 @@ For more info about kitty updates check website 🎄👀""",
     elif query.data=="moon":
         query.message.edit_caption("""Hey,
 
-I am Kitty bot 🦚 ✨
+I am Kitty bot ✨
 I am created with love by my [developer](t.me/moonshining2) ❤""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -480,7 +480,7 @@ I am created with love by my [developer](t.me/moonshining2) ❤""",parse_mode=Pa
                     ]
                 ]
             ),
-            )
+        )
     elif query.data == "mukesh_back":
         first_name = update.effective_user.first_name 
         query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
