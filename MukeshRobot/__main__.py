@@ -90,11 +90,11 @@ buttons = [
         ),
     ],
    [
-        InlineKeyboardButton(text="✨ Help ✨", callback_data="Main_help"),
         InlineKeyboardButton(text="⭐ About me⭐", callback_data="mukesh_"),
+        InlineKeyboardButton(text="✨ Help ✨", callback_data="Main_help"),
       ],    
    [
-        InlineKeyboardButton(text="❄ Owner ❄", callback_data="Main_help"),
+        InlineKeyboardButton(text="❄ Owner ❄", callback_data="moon"),
         InlineKeyboardButton(text="🎄 Update 🎄", url=f"t.me/kittyxupdates"),
       ],    
 
