@@ -606,7 +606,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
                     ],                    
                     [
                         InlineKeyboardButton(text="👩‍💻 Developer 👩‍💻", callback_data="advance_help")
-                        InlineKeyboardButton(text="💡 Github 💡", url="t.me/herokue_cc" 
+                        InlineKeyboardButton(text="💡 Github 💡", url="t.me/herokue_cc") 
                     ],
                     [InlineKeyboardButton(text="◁", callback_data="mukesh_"),]
                 ]
