@@ -5,7 +5,7 @@ from MukeshRobot.utils.errors import capture_err
 from MukeshRobot.utils.functions import make_carbon
 
 
-@pbot.on_message(filters.command("carbon"))
+@pbot.on_message(filters.command("tujjhhhh"))
 @capture_err
 async def carbon_func(_, message):
     if message.reply_to_message:
