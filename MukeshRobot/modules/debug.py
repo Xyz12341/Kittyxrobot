@@ -67,6 +67,9 @@ dispatcher.add_handler(DEBUG_HANDLER)
 __mod_name__ = "Dᴇʙᴜɢ"
 __help__ = """
 /logs    ᴛᴏ ɢᴇᴛ ʜᴇʀᴜᴋᴏ ʟᴏɢs
-/debug ᴛᴏ ᴏɴ / ᴏғғ ᴅᴇʙᴜɢ """
+/debug ᴛᴏ ᴏɴ / ᴏғғ ᴅᴇʙᴜɢ 
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+"""
 __command_list__ = ["debug"]
 __handlers__ = [DEBUG_HANDLER]
