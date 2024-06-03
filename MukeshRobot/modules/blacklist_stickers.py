@@ -499,6 +499,7 @@ __help__ = """
  ❍ /blstickermode <ʙᴀɴ/ᴛʙᴀɴ/ᴍᴜᴛᴇ/ᴛᴍᴜᴛᴇ>*:* sᴇᴛs ᴜᴘ ᴀ ᴅᴇғᴀᴜʟᴛ ᴀᴄᴛɪᴏɴ ᴏɴ ᴡʜᴀᴛ ᴛᴏ ᴅᴏ ɪғ ᴜsᴇʀs ᴜsᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ sᴛɪᴄᴋᴇʀs
 ɴᴏᴛᴇ:
  ❍ <sticker link > ᴄᴀɴ ʙᴇ `https://t.me/addstickers//<sticker>` ᴏʀ ᴊᴜsᴛ `<sticker>` ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴍᴇssᴀɢᴇ
+ ☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
 """
 
 __mod_name__ = "Sᴛɪᴄᴋᴇʀ"
