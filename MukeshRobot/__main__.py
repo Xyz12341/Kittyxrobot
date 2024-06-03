@@ -470,12 +470,12 @@ For more info about kitty updates check website 🎄👀""",
         query.message.edit_caption("""Hey,
 
 I am Kitty bot ✨
-I am created with love by my [developer](t.me/moonshining2) ❤""",parse_mode=ParseMode.MARKDOWN,
+I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Owner 👩‍💻", url=f"t.me/moonshining4"),
+                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
                     [
@@ -569,12 +569,12 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
         query.message.edit_caption("""Hey,
 
 I am Kitty bot ✨
-I am created with love by my [developer](t.me/moonshining2) ❤.""",parse_mode=ParseMode.MARKDOWN,
+I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="Owner 👩‍💻", url=f"t.me/moonshining4"),
+                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support"),]
@@ -709,6 +709,8 @@ Here is the help menu for Sarcastic music player ✨👀
 ● /unauth: remove user from authorized list.
 ● /authusers: list all auths of chat 
 
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+
 (✿◠‿◠)
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -730,6 +732,8 @@ Here is the help menu for Sarcastic music player ✨👀
 ● /lyrics <query>: search your song lyrics. 
 ● /replay <query> : play your query again.
 ● /queue : get your current playing and queued track for group.
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
 
 (✿◠‿◠)
 """,
@@ -753,6 +757,8 @@ Here is the help menu for Sarcastic music player ✨👀
 ● /setname : set the new name of assistant.
 ● /meval : something crazy u shouldn't know.
 
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+
 (✿◠‿◠)
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -771,9 +777,34 @@ Here is the help menu for Sarcastic music player ✨👀
 /start - ꜱᴛᴀʀᴛ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ.
 /help  - ɢᴇᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ʜᴇʟᴘᴇʀ ᴍᴇɴᴜ ᴡɪᴛʜ ᴅᴇᴛᴀɪʟᴇᴅ ᴇxᴘʟᴀɴᴀᴛɪᴏɴꜱ ᴏғ ᴄᴏᴍᴍᴀɴᴅꜱ.
 /ping- ᴘɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ ʀᴀᴍ, ᴄᴘᴜ ᴇᴛᴄ ꜱᴛᴀᴛꜱ ᴏғ ʙᴏᴛ.
+/insta ➠ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ.
+/movie ➠ ᴛᴏ ɢᴇᴛ ɪɴғᴏ ᴏғ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ.
+ /logo - ᴇɴᴛᴇʀ ᴛᴇxᴛ ᴀғᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇɴʀᴀᴛᴇ ʟᴏɢᴏ.
+ /animelogo - ᴇɴᴛᴇʀ ᴛᴇxᴛ ᴀғᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇɴʀᴀᴛᴇ ᴀɴɪᴍᴇ ʟᴏɢᴏ.
+ /tiny ➠ ʀᴇᴘʟʏ ᴛᴏ sᴛɪᴄᴋᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛɪɴʏ
+ /meme ➠ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇɴʀᴀᴛᴇ ᴍᴇᴍᴇs.
+ /gmtag ➠ ғᴏʀ ᴍᴏʀɴɪɴɢ ᴡɪsʜᴇs🥰.
+ /gmstop  ➠ sᴛᴏᴘ ᴍᴏʀɴɪɴɢ ᴡɪsʜᴇs.
+ /gntag  ➠ ғᴏʀ ɴɪɢʜᴛ ᴡɪsʜᴇs 😴.
+ /gnstop  ➠ sᴛᴏᴘ ɴɪɢʜᴛ ᴡɪsʜᴇs😴.
+ /hitag  ➠  ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ ʜɪɴᴅɪ ǫᴜᴏᴛᴇs.
+ /histop ➠  sᴛᴏᴘ ʜɪɴᴅɪ ǫᴜᴏᴛᴇs.
+ /entag ➠ ᴛᴀɢ ɪɴ ᴇɴɢʟɪsʜ...
+ /entop ➠ ᴛᴏ sᴛᴏᴘ ᴇɴʟɪsʜ ᴛᴀɢ..
+ /bntag ➠ ᴛᴏ ᴛᴀɢ ɪɴ ʙᴇɴɢᴀʟɪ...
+ /bnstop ➠ sᴛᴏᴘ ʙᴇɴɢᴀʟɪ ᴛᴀɢ..
+ /lifetag  ➠ ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ ᴇɴɢʟɪsʜ ǫᴜᴏᴛᴇs.
+ /lifestop  ➠  sᴛᴏᴘ ᴇɴɢʟɪsʜ ǫᴜᴏᴛᴇs.
+ /shayari   ➠ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴡɪᴛʜ sʜᴀʏʀɪ😜.
+ /shayarioff  ➠ sᴛᴏᴘ ᴍᴇɴᴛɪᴏɴɪɴɢ sʜᴀʏʀɪ.
+ /wish ➠ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴡɪsʜ ᴀғᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ.
+/bored ➠ ᴊᴜsᴛ ғᴏʀ ғᴜɴ😁.
+/gay ➠ ɢᴇᴛ ʏᴏᴜʀ ɢᴀʏ ᴘᴇʀᴄᴇɴᴛᴀɢᴇ  ˡᵒˡ 😅.
 
 *ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ:*
 /settings - ɢᴇᴛ a ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴡɪᴛʜ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -1071,7 +1102,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="+ Add me to your clan darlo +",
-                            url="https://t.me/groupcontrollertgbot?startgroup=true"
+                            url="https://t.me/kittyxmusic_bot?startgroup=true"
                             )
                        ]
                 ]
