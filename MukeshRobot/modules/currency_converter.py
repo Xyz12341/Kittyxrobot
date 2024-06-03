@@ -55,6 +55,8 @@ Converts money from one exchange to another
 
 Usage: /cash amount from to
 Example: /cash 20 USD INR
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
 """
 
 CONVERTER_HANDLER = CommandHandler("cash", convert, run_async=True)
