@@ -30,7 +30,7 @@ from .. import pbot as  Mukesh,BOT_USERNAME
 import requests
 
 
-@Mukesh.on_message(filters.command("qrcode"))
+@Mukesh.on_message(filters.command("bybxjde"))
 async def qrcode_(_, message: Message):
     if message.reply_to_message:
         text = message.reply_to_message.text
