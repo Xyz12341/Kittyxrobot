@@ -46,6 +46,8 @@ __help__ = """
 /ball - Bowling Ball 🎳
 /football - Football ⚽
 /jackpot - Spin slot machine 🎰
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
  """
 
 __mod_name__ = "Dɪᴄᴇ"
