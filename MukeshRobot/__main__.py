@@ -577,7 +577,7 @@ I am created with love by my [developer](t.me/moonshining2) ❤.""",parse_mode=P
                         InlineKeyboardButton(text="Owner 👩‍💻", url=f"t.me/moonshining4"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
-                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support")]
+                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support"),]
                 ]
             ),
         )
