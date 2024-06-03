@@ -502,7 +502,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=text="🎄 Update 🎄", url=f"http://t.me/kittyxupdates")
+                        InlineKeyboardButton(text="🎄 Update 🎄", url=f"http://t.me/kittyxupdates")
                     ],                
                     [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
