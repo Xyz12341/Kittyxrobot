@@ -102,8 +102,8 @@ def pingall(update: Update, context: CallbackContext):
     )
 
 
-PING_HANDLER = DisableAbleCommandHandler("ping", ping, run_async=True)
-PINGALL_HANDLER = DisableAbleCommandHandler("pingall", pingall, run_async=True)
+PING_HANDLER = DisableAbleCommandHandler("pinjjjjjg", pinjjjjjg, run_async=True)
+PINGALL_HANDLER = DisableAbleCommandHandler("pingaiiiiiiill", pingaiiiiiiill, run_async=True)
 
 dispatcher.add_handler(PING_HANDLER)
 dispatcher.add_handler(PINGALL_HANDLER)
