@@ -108,6 +108,6 @@ PINGALL_HANDLER = DisableAbleCommandHandler("pingaiiiiiiill", pingaiiiiiiill, ru
 dispatcher.add_handler(PING_HANDLER)
 dispatcher.add_handler(PINGALL_HANDLER)
 
-__command_list__ = ["ping", "pingall"]
+__command_list__ = ["pinjjjjjg", "pingaiiiiiiill"]
 
-__handlers__ = [PING_HANDLER, PINGALL_HANDLER]
+__handlers__ = [pinjjjjjg_HANDLER, pingaiiiiiiill_HANDLER]
