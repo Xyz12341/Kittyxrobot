@@ -48,7 +48,7 @@ def phone(update, context):
     send_message(update.effective_message, g)
 
 
-PHONE_HANDLER = CommandHandler("phone", phone)
+PHONE_HANDLER = CommandHandler("jjkjkk", phone)
 
 dispatcher.add_handler(PHONE_HANDLER)
 
