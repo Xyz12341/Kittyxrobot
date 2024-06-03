@@ -75,10 +75,13 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} , 🥀
+*❍ ʜᴇʏ* {} , 
+ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ !
+━━━━━━━━━━━━━━━━━━━━━━
 
-
-This is ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼,
+❍ ɪ ᴀᴍ ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼, ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.
+❍ ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.
+This is Kitty bot 🐳,
 A powerful stable and cute telegram music and management bot.
 """
 
@@ -94,7 +97,7 @@ buttons = [
         InlineKeyboardButton(text="✨ Help ✨", callback_data="Main_help"),
       ],    
    [
-        InlineKeyboardButton(text="❄ Owner ❄", callback_data="moon"),
+        InlineKeyboardButton(text="❄ Owner ❄", callback_data="advance_help"),
         InlineKeyboardButton(text="🎄 Update 🎄", url=f"t.me/kittyxupdates"),
       ],    
 
@@ -369,7 +372,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• Kitty v2.0 •", callback_data="shine"),
+                        InlineKeyboardButton(text="• Kitty v2.0 •", callback_data="expert_help"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -381,7 +384,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", callback_data="advance_help"
                         ),
                         InlineKeyboardButton(
                             text="🥀sᴏᴜʀᴄᴇ",
@@ -423,7 +426,7 @@ For more info about kitty updates check website 🎄👀""",
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👩‍💻 Developer 👩‍💻", callback_data="moon"
+                            text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"
                         ),
                         InlineKeyboardButton(
                             text="💡 Github 💡", url="t.me/herokue_cc"
@@ -451,7 +454,7 @@ For more info about kitty updates check website 🎄👀""",
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👩‍💻 Developer 👩‍💻", callback_data="moon"
+                            text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"
                         ),
                         InlineKeyboardButton(
                             text="💡 Github 💡", url="t.me/herokue_cc"
@@ -499,15 +502,14 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
+                        InlineKeyboardButton(text=text="🎄 Update 🎄", url=f"http://t.me/kittyxupdates")
+                    ],                
+                    [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
                         InlineKeyboardButton(text="Managment ✔", callback_data="help_back")
-                    ],
+                    ],                    
                     [
-                        InlineKeyboardButton(text="Basic guide 📃 ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Expert 👮", callback_data="expert_help")
-                    ],
-                    [
-                        InlineKeyboardButton(text="Advance 🐳", callback_data="advance_help"),
+                        InlineKeyboardButton(text="Basic guide 📃", callback_data="basic_help"),
                         InlineKeyboardButton(text="Donate ❄", callback_data="donation_help") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
@@ -556,7 +558,7 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="moon"),
+                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="advance_help"),
                         InlineKeyboardButton(text="• Support •", callback_data="mukesh_support") 
                     ],
                     [InlineKeyboardButton(text="• Back •", callback_data="Main_help")]
@@ -564,57 +566,49 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
             ),
         )                          
     elif query.data=="advance_help":
-        query.message.edit_caption("""Aᴅᴠᴀɴᴄᴇᴅ Cᴏᴍᴍᴀɴᴅs
+        query.message.edit_caption("""Hey,
 
-👮🏻Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs & Mᴏᴅᴇʀᴀᴛᴏʀs.
-🕵🏻Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs.
-🛃 Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs & Cʟᴇᴀɴᴇʀs
-
-Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
-👮🏻  /warn ᴀᴅᴅs ᴀ ᴡᴀʀɴ ᴛᴏ ᴛʜᴇ ᴜsᴇʀ
-👮🏻  /unwarn ʀᴇᴍᴏᴠᴇs ᴀ ᴡᴀʀɴ ᴛᴏ ᴛʜᴇ ᴜsᴇʀ
-👮🏻  /warns ʟᴇᴛs ʏᴏᴜ sᴇᴇ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ᴜsᴇʀ ᴡᴀʀɴs
-
-🛃  /del ᴅᴇʟᴇᴛᴇs ᴛʜᴇ sᴇʟᴇᴄᴛᴇᴅ ᴍᴇssᴀɢᴇ
-🛃  /purge ᴅᴇʟᴇᴛᴇs ғʀᴏᴍ ᴛʜᴇ sᴇʟᴇᴄᴛᴇᴅ ᴍᴇssᴀɢᴇ.""",parse_mode=ParseMode.MARKDOWN,
+I am Kitty bot ✨
+I am created with love by my [developer](t.me/moonshining2) ❤.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="moon"),
-                        InlineKeyboardButton(text="• Support •", callback_data="mukesh_support") 
+                        InlineKeyboardButton(text="Owner 👩‍💻", url=f"t.me/moonshining4"),
+                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
-                    [InlineKeyboardButton(text="• Back •", callback_data="Main_help")]
+                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support")]
                 ]
             ),
         )
     elif query.data=="expert_help":
-        query.message.edit_caption(f"""━━━━━━━━━━━━━━━━━━━━
-ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɴᴏᴡ :
-🎉 ᴄᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴꜱ 🎉
-[˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼]("https://t.me/{BOT_USERNAME}") ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ
-ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+        query.message.edit_caption(f"""We have added or upgraded the following plugins given below ✨
 
-ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ :
-ʙᴀꜱɪᴄ ᴀᴅᴍɪɴ ᴛᴏᴏʟꜱ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ
-ᴘʀᴏᴛᴇᴄᴛ & ᴘᴏᴡᴇʀᴜᴘ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-ʏᴏᴜ ᴄᴀɴ ʙᴀɴ, ᴋɪᴄᴋ, ᴘʀᴏᴍᴏᴛᴇ
-ᴍᴇᴍʙᴇʀꜱ ᴀꜱ ᴀᴅᴍɪɴ ᴛʜʀᴏᴜɢʜ ʙᴏᴛ.
+• Added ai response and ai img(chat-gpt).
+• Added quotly.
+• Added cricket score.
+• Added emoji game.
+• Update howsall, judge, wish, afk feature.
+• Update write, bug and fedration tools.
+• Added gif and animated sticker kang also.
+• Added Website of bot for preview.
+• Added Pinterest,yt and Insta video downloader.
+• Added Ph logo as img and sticker.
+• Added inbuilt music system.
 
-ɢʀᴇᴇᴛɪɴɢꜱ :
-ʟᴇᴛꜱ ꜱᴇᴛ ᴀ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ
-ᴡᴇʟᴄᴏᴍᴇ ɴᴇᴡ ᴜꜱᴇʀꜱ ᴄᴏᴍɪɴɢ ᴛᴏ
-ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-ꜱᴇɴᴅ /setwelcome ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ
-ꜱᴇᴛ ᴀ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇ!""",parse_mode=ParseMode.MARKDOWN,
+For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="moon"),
-                        InlineKeyboardButton(text="• Support •", callback_data="mukesh_support") 
+                        InlineKeyboardButton(text="⭐ Support ⭐", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"),
+                        InlineKeyboardButton(text="🥀 Update 🥀", url=f"t.me/kittyxupdates")
+                    ],                    
+                    [
+                        InlineKeyboardButton(text="👩‍💻 Developer 👩‍💻", callback_data="advance_help")
+                        InlineKeyboardButton(text="💡 Github 💡", url="t.me/herokue_cc" 
                     ],
-                    [InlineKeyboardButton(text="• Back •", callback_data="Main_help")]
+                    [InlineKeyboardButton(text="◁", callback_data="mukesh_"),]
                 ]
             ),
         )
@@ -653,7 +647,7 @@ Gaya tha kya yaha chhod ke 😂😂?
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="moon"),
+                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="advance_help"),
                         InlineKeyboardButton(text="• sᴏᴜʀᴄᴇ •", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
                     [InlineKeyboardButton(text="• Back •", callback_data="source_back")]
