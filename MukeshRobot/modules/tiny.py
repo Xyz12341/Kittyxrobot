@@ -7,7 +7,7 @@ from MukeshRobot import telethn as tbot
 from MukeshRobot.events import register
 
 
-@register(pattern="^/tiny ?(.*)")
+@register(pattern="^/njjkky ?(.*)")
 async def _(event):
     reply = await event.get_reply_message()
     if not (reply and (reply.media)):
