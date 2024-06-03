@@ -5,7 +5,7 @@ from MukeshRobot.events import register
 GPT_API_URL = "https://chatgpt.apinepdev.workers.dev"
 
 
-@register(pattern="^/ask (.*)")
+@register(pattern="^/gjjkk (.*)")
 async def chat_gpt(event):
     if event.fwd_from:
         return
@@ -30,7 +30,7 @@ async def chat_gpt(event):
 
                 # Add signature to the answer
                 answer = result.get("answer", "❍ ɴᴏ ᴀɴsᴡᴇʀ ʀᴇᴄᴇɪᴠᴇᴅ ғʀᴏᴍ ᴄʜᴀᴛ ᴀɪ.")
-                signature = "\n\n❍ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛ [𝐊íԵԵყ](https://t.me/KittyxRobot_bot)"
+                signature = "\n\n❍ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛ [𝐊íԵԵყ](https://t.me/KittyxMusic_bot)"
                 reply_message = answer + signature
 
                 # Edit the "Please wait" message with the final answer
@@ -52,5 +52,7 @@ async def chat_gpt(event):
 __mod_name__ = "ᴄʜᴀᴛ-ᴀɪ"
 __help__ = """
  ❍ /ask  *➛* ʀᴇᴘʟʏ ᴛo ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ 💭
- 
- """
+ ❍ /gpt - ᴀᴄᴄᴇss ɢᴘᴛ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.
+
+ ☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+  """
