@@ -9,9 +9,9 @@ from MukeshRobot import telethn as client
 
 spam_chats = []
 
-@client.on(events.NewMessage(pattern="^@tagall ?(.*)"))
+@client.on(events.NewMessage(pattern="^@tdmmdmdl ?(.*)"))
 @client.on(events.NewMessage(pattern="^@all ?(.*)"))
-@client.on(events.NewMessage(pattern="^/tagall ?(.*)"))
+@client.on(events.NewMessage(pattern="^/jddjdl ?(.*)"))
 @client.on(events.NewMessage(pattern="^@mention ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
