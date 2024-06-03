@@ -6,34 +6,34 @@ from MukeshRobot import pbot as mukesh
 from pyrogram.handlers import MessageHandler
 
 
-@mukesh.on_message(filters.command("dice"))
+@mukesh.on_message(filters.command("dsjdjdjnf"))
 async def dice(bot, message):
     x=await bot.send_dice(message.chat.id)
     m=x.dice.value
     await message.reply_text(f"Hey {message.from_user.mention} your Score is : {m}",quote=True)
   
-@mukesh.on_message(filters.command("dart"))
+@mukesh.on_message(filters.command("darndndndt"))
 async def dart(bot, message):
     x=await bot.send_dice(message.chat.id, "🎯")
     m=x.dice.value
     await message.reply_text(f"Hey {message.from_user.mention} your Score is : {m}",quote=True)
 
-@mukesh.on_message(filters.command("basket"))
+@mukesh.on_message(filters.command("baskjdjdjdet"))
 async def basket(bot, message):
     x=await bot.send_dice(message.chat.id, "🏀")
     m=x.dice.value
     await message.reply_text(f"Hey {message.from_user.mention} your Score is : {m}",quote=True)
-@mukesh.on_message(filters.command("jackpot"))
+@mukesh.on_message(filters.command("jackpdjdjndot"))
 async def basket(bot, message):
     x=await bot.send_dice(message.chat.id, "🎰")
     m=x.dice.value
     await message.reply_text(f"Hey {message.from_user.mention} your Score is : {m}",quote=True)
-@mukesh.on_message(filters.command("ball"))
+@mukesh.on_message(filters.command("bandndndll"))
 async def basket(bot, message):
     x=await bot.send_dice(message.chat.id, "🎳")
     m=x.dice.value
     await message.reply_text(f"Hey {message.from_user.mention} your Score is : {m}",quote=True)
-@mukesh.on_message(filters.command("football"))
+@mukesh.on_message(filters.command("footbdjdjfjall"))
 async def basket(bot, message):
     x=await bot.send_dice(message.chat.id, "⚽")
     m=x.dice.value
