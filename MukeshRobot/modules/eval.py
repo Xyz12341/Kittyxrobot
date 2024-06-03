@@ -161,4 +161,6 @@ __help__ = f"""
 ★ /eval :- to evaluate simple code
 ★ /ex :-  to execute code
 ★ /clear :- to run clear cmd
+
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
 """
