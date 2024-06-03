@@ -671,7 +671,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         query.message.edit_caption(f"""
  Hi, i am a Kitty X player ...
 
-Here is the help menu for Sarcastic music player ✨👀
+Here is the help menu for Kitty music player ✨👀
 """,
             parse_mode=ParseMode.MARKDOWN,
             
