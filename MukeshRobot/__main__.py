@@ -95,11 +95,11 @@ buttons = [
         ),
     ],
    [
-        InlineKeyboardButton(text="⭐ About me⭐", callback_data="mukesh_"),
-        InlineKeyboardButton(text="✨ Help ✨", callback_data="Main_help"),
+        InlineKeyboardButton(text="🍺 About me 🍺", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
       ],    
    [
-        InlineKeyboardButton(text="❄ Owner ❄", callback_data="advance_help"),
+        InlineKeyboardButton(text="🧊 Owner 🧊", callback_data="advance_help"),
         InlineKeyboardButton(text="🎄 Update 🎄", url=f"t.me/kittyxupdates"),
       ],    
 
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.5)
             lol.edit_text("🧊")
             time.sleep(0.3)
-            lol.edit_text("🌙")
+            lol.edit_text("🍃")
             time.sleep(0.4)
             lol.delete()
             
@@ -431,7 +431,7 @@ For more info about kitty updates check website 🎄👀""",
                             text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"
                         ),
                         InlineKeyboardButton(
-                            text="💡 Github 💡", url="t.me/herokue_cc"
+                            text="💡 Github 💡", url="https://t.me/kittybothub"
                         ),
                     ],
                     [
@@ -459,7 +459,7 @@ For more info about kitty updates check website 🎄👀""",
                             text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"
                         ),
                         InlineKeyboardButton(
-                            text="💡 Github 💡", url="t.me/herokue_cc"
+                            text="💡 Github 💡", url="https://t.me/kittybothub"
                         ),
                     ],
                     [
@@ -608,7 +608,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
                     ],                    
                     [
                         InlineKeyboardButton(text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"),
-                        InlineKeyboardButton(text="💡 Github 💡", url="t.me/herokue_cc") 
+                        InlineKeyboardButton(text="💡 Github 💡", url="https://t.me/kittybothub") 
                     ],
                     [InlineKeyboardButton(text="◁", callback_data="mukesh_"),]
                 ]
@@ -1041,7 +1041,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 7006715434:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://t.me/kittyxupdates )"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://t.me/kittybothub)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
                 parse_mode=ParseMode.MARKDOWN,
                 
@@ -1102,7 +1102,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-✨ㅤ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼ I am alive 🖤!
+✨ㅤ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ I am alive 🖤!
 
 {BOT_NAME} system stats :
 
@@ -1111,7 +1111,7 @@ def main():
 **❄️  Cpu:** `{tlhver}`
 **🔮  Disk:** `{pyrover}`
 
-Made ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀
+Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
             )
