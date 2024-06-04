@@ -394,7 +394,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),
                     ],
                 ]
             ),
@@ -579,7 +579,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤.""",p
                         InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support"),]
+                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
                 ]
             ),
         )
