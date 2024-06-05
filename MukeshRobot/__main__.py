@@ -492,7 +492,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_help")
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon")
                     ],                
                     [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
@@ -526,7 +526,10 @@ If you still face any problems you are always welcome to support ✨""",parse_mo
                 ]
             ),
         )
-    elif query.data=="mukesh_help":
+def Moon_about_callback(update: Update, context: CallbackContext):
+    query = update.callback_query
+    if query.data == "moon":
+        uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption("""Join our groups....🧊
 
 For more info about kitty updates check support 🎄👀""",
@@ -569,7 +572,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_help") 
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon") 
                     ],                    
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
                 ]
@@ -1127,6 +1130,9 @@ Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs
 
     about_callback_handler = CallbackQueryHandler(
         Mukesh_about_callback, pattern=r"mukesh_", run_async=True
+    )
+    about_callback_handler = CallbackQueryHandler(
+        Moon_about_callback, pattern=r"moon", run_async=True
     )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_", run_async=True
