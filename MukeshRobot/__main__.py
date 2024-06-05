@@ -1156,7 +1156,7 @@ Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs
     dispatcher.add_handler(mukeshrobot_main_handler)
     dispatcher.add_error_handler(error_callback)
     dispatcher.add_handler(source_callback_handler)
-    dispatcher.add_handler(shine_callback_handler)
+    dispatcher.add_handler(moon_callback_handler)
     LOGGER.info("Using long polling.")
     updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
