@@ -95,7 +95,7 @@ buttons = [
         ),
     ],
    [
-        InlineKeyboardButton(text="🐬 About me 🐬", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🌊About me 🌊", callback_data="mukesh_"),
         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
       ],    
    [
@@ -571,12 +571,12 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
         query.message.edit_caption("""Hey,
 
 I am Kitty bot ✨
-I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤.""",parse_mode=ParseMode.MARKDOWN,
+I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonshining/5) ❤.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
+                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/About_ur_Moonshining/5"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
@@ -711,7 +711,7 @@ Here is the help menu for Kitty music player ✨👀
 ● /unauth: remove user from authorized list.
 ● /authusers: list all auths of chat 
 
-☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/About_ur_Moonshining/5)....🥀🥀✧☆
 
 (✿◠‿◠)
 """,
@@ -735,7 +735,7 @@ Here is the help menu for Kitty music player ✨👀
 ● /replay <query> : play your query again.
 ● /queue : get your current playing and queued track for group.
 
-☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/About_ur_Moonshining/5)....🥀🥀✧☆
 
 (✿◠‿◠)
 """,
@@ -759,7 +759,7 @@ Here is the help menu for Kitty music player ✨👀
 ● /setname : set the new name of assistant.
 ● /meval : something crazy u shouldn't know.
 
-☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/About_ur_Moonshining/5)....🥀🥀✧☆
 
 (✿◠‿◠)
 """,
@@ -793,7 +793,7 @@ Here is the help menu for Kitty music player ✨👀
 *ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ:*
 /settings - ɢᴇᴛ a ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴡɪᴛʜ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ
 
-☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/Moonshining2)....🥀🥀✧☆
+☆✧....𝐁𝐘🫧 » [☄️𝐌ᴏᴏɴ🌙](https://t.me/About_ur_Moonshining/5)....🥀🥀✧☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             
