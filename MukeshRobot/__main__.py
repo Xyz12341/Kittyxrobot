@@ -492,7 +492,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="source_back")
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_update")
                     ],                
                     [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
@@ -526,35 +526,35 @@ If you still face any problems you are always welcome to support ✨""",parse_mo
                 ]
             ),
         )
-    elif query.data=="mukesh_back":
-        query.message.edit_caption("""Exᴘᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs
+    elif query.data=="mukesh_update":
+        query.message.edit_caption("""Join our groups....🧊
 
-👥 Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs
-👮🏻 Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs & Mᴏᴅᴇʀᴀᴛᴏʀs.
-🕵🏻 Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ Aᴅᴍɪɴs
-
-🕵🏻  /unbanall ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘs
-👮🏻  /unmuteall ᴜɴᴍᴜᴛᴇᴀʟʟ ᴀʟʟ ғʀᴏᴍ Yᴏᴜʀ Gʀᴏᴜᴘ
-
-Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
-🕵🏻  /pin [ᴍᴇssᴀɢᴇ] sᴇɴᴅs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ Bᴏᴛ ᴀɴᴅ ᴘɪɴs ɪᴛ.
-🕵🏻  /pin ᴘɪɴs ᴛʜᴇ ᴍᴇssᴀɢᴇ ɪɴ ʀᴇᴘʟʏ
-🕵🏻  /unpin ʀᴇᴍᴏᴠᴇs ᴛʜᴇ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ.
-🕵🏻  /adminlist ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ sᴘᴇᴄɪᴀʟ ʀᴏʟᴇs ᴀssɪɢɴᴇᴅ ᴛᴏ ᴜsᴇʀs.
-
-◽️ /bug: (ᴍᴇssᴀɢᴇ) ᴛᴏ Sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴇʀʀᴏʀs ᴡʜɪᴄʜ ʏᴏᴜ ᴀʀᴇ ғᴀᴄɪɴɢ 
-ᴇx: /bug Hᴇʏ Tʜᴇʀᴇ Is ᴀ Sᴏᴍᴇᴛʜɪɴɢ Eʀʀᴏʀ @username ᴏғ ᴄʜᴀᴛ! .""",parse_mode=ParseMode.MARKDOWN,
-            
+For more info about kitty updates check support 🎄👀""",
+            parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-               [
+                [
                     [
-                        InlineKeyboardButton(text="Developer 👩‍💻", callback_data="advance_help"),
-                        InlineKeyboardButton(text="• Support •", callback_data="mukesh_support") 
+                        InlineKeyboardButton(
+                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
+                        ),
+                        InlineKeyboardButton(
+                            text="🥀ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
+                        ),
                     ],
-                    [InlineKeyboardButton(text="• Back •", callback_data="Main_help")]
+                    [
+                        InlineKeyboardButton(
+                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
+                        ),
+                        InlineKeyboardButton(
+                            text="💡 Share your query 💡", url="https://t.me/kittybothub"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="mukesh_"),
+                    ],
                 ]
             ),
-        )                          
+        )                         
     elif query.data=="advance_help":
         query.message.edit_caption("""Hey,
 
@@ -569,7 +569,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="source_back") 
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_update") 
                     ],                    
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
                 ]
@@ -648,38 +648,18 @@ Gaya tha kya yaha chhod ke 😂😂?
                 ]
             ),
         )
-    elif query.data == "source_back":
-        query.message.edit_caption("""Join our groups....🧊
-
-For more info about kitty updates check support 🎄👀""",
+elif query.data == "source_back":
+        first_name = update.effective_user.first_name
+        query.message.edit_caption(
+            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
+            reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
-                        ),
-                        InlineKeyboardButton(
-                            text="🥀ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
-                        ),
-                        InlineKeyboardButton(
-                            text="💡 Share your query 💡", url="https://t.me/kittybothub"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="◁", callback_data="mukesh_"),
-                    ],
-                ]
-            ),
+            timeout=60,
+            
         )
 
-
-        def Music_about_callback(update: Update, context: CallbackContext):
+        
+def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
