@@ -492,7 +492,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_update")
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_help")
                     ],                
                     [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
@@ -526,7 +526,7 @@ If you still face any problems you are always welcome to support ✨""",parse_mo
                 ]
             ),
         )
-    elif query.data=="mukesh_update":
+    elif query.data=="mukesh_help":
         query.message.edit_caption("""Join our groups....🧊
 
 For more info about kitty updates check support 🎄👀""",
@@ -569,7 +569,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_update") 
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="mukesh_help") 
                     ],                    
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
                 ]
