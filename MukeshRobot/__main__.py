@@ -95,11 +95,11 @@ buttons = [
         ),
     ],
    [
-        InlineKeyboardButton(text="🍺 About me 🍺", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🐬 About me 🐬", callback_data="mukesh_"),
         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
       ],    
    [
-        InlineKeyboardButton(text="🧊 Owner 🧊", callback_data="advance_help"),
+        InlineKeyboardButton(text="🌔 Owner 🌖", callback_data="advance_help"),
         InlineKeyboardButton(text="🎄 Update 🎄", url=f"t.me/kittyxupdates"),
       ],    
 
@@ -111,7 +111,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @herokue_cc ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @kittyxupdates ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @kittybothub ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @kittyxupdates ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.5)
             lol.edit_text("🧊")
             time.sleep(0.3)
-            lol.edit_text("🍃")
+            lol.edit_text("🌪️")
             time.sleep(0.4)
             lol.delete()
             
@@ -640,7 +640,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
  ᴛʜɪs ɪs {BOT_NAME},
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](t.me/kittyxupdates)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://t.me/kittybothub)
 
 Gaya tha kya yaha chhod ke 😂😂?
 """,
