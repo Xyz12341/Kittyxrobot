@@ -553,7 +553,8 @@ For more info about kitty updates check support 🎄👀""",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Main_help"),
+                        InlineKeyboardButton(text="◁", callback_data="Main_help"
+                        ),
                     ],
                 ]
             ),
