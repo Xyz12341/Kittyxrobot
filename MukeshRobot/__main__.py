@@ -575,11 +575,14 @@ Your small amount can help us and kitty to grow more ✨""",parse_mode=ParseMode
 def Moon_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "moon_":
-        uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption("""Join our groups....🧊
+        query.message.edit_caption(
+            f"""
+Join our groups....🧊
 
-For more info about kitty updates check support 🎄👀""",
+For more info about kitty updates check support 🎄👀
+""",
             parse_mode=ParseMode.MARKDOWN,
+            
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -604,6 +607,17 @@ For more info about kitty updates check support 🎄👀""",
                 ]
             ),
         )  
+    elif query.data == "moon_back":
+        first_name = update.effective_user.first_name
+        query.message.edit_caption(
+            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
+            reply_markup=InlineKeyboardMarkup(buttons),
+            parse_mode=ParseMode.MARKDOWN,
+            timeout=60,
+            
+        )
+
+        
 def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
@@ -1134,6 +1148,7 @@ Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs
     dispatcher.add_handler(mukeshrobot_main_handler)
     dispatcher.add_error_handler(error_callback)
     dispatcher.add_handler(source_callback_handler)
+    dispatcher.add_handler(moon_callback_handler)
     LOGGER.info("Using long polling.")
     updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
