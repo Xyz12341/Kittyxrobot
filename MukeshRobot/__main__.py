@@ -218,6 +218,7 @@ def start(update: Update, context: CallbackContext):
             lol.edit_text("🐳")
             time.sleep(0.5)
             lol.edit_text("🐳")
+            time.sleep(0.3)
             lol.delete()
             
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
