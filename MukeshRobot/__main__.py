@@ -1077,9 +1077,6 @@ Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs
     about_callback_handler = CallbackQueryHandler(
         Mukesh_about_callback, pattern=r"mukesh_", run_async=True
     )
-    about_callback_handler = CallbackQueryHandler(
-        Moon_about_callback, pattern=r"moon_", run_async=True
-    )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_", run_async=True
     )
