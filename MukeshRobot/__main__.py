@@ -572,6 +572,38 @@ Your small amount can help us and kitty to grow more ✨""",parse_mode=ParseMode
                 ]
             ),
             )  
+def Moon_about_callback(update: Update, context: CallbackContext):
+    query = update.callback_query
+    if query.data == "moon_":
+        uptime = get_readable_time((time.time() - StartTime))
+        query.message.edit_caption("""Join our groups....🧊
+
+For more info about kitty updates check support 🎄👀""",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
+                        ),
+                        InlineKeyboardButton(
+                            text="ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
+                        ),
+                        InlineKeyboardButton(
+                            text="Share your query💡", url="https://t.me/kittybothub"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="Main_help"),
+                    ],
+                ]
+            ),
+        )  
 def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
@@ -1082,6 +1114,9 @@ Made ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs
     )
     music_callback_handler = CallbackQueryHandler(
         Music_about_callback, pattern=r"Music_",run_async=True
+    )
+    moon_callback_handler = CallbackQueryHandler(
+        Moon_about_callback, pattern=r"moon_", run_async=True
     )
     mukeshrobot_main_handler = CallbackQueryHandler(
         MukeshRobot_Main_Callback, pattern=r".*_help",run_async=True)
