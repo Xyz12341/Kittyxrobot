@@ -506,10 +506,11 @@ For more info about kitty updates check support 🎄👀""",
                         ),
                     ],
                     [
-                    [InlineKeyboardButton(text="◁", callback_data="Main_help"),]
+                        InlineKeyboardButton(text="◁", callback_data="Main_help"),
+                    ],
                 ]
             ),
-        )                         
+        )                       
     elif query.data=="advance_help":
         query.message.edit_caption("""Hey,
 
