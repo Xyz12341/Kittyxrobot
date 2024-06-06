@@ -399,6 +399,35 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
+    elif query.data == "shine":
+        query.message.edit_caption("""Join our groups....🧊
+
+For more info about kitty updates check support 🎄👀""",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
+                        ),
+                        InlineKeyboardButton(
+                            text="🥀ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
+                        ),
+                        InlineKeyboardButton(
+                            text="💡 Share your query 💡", url="https://t.me/kittybothub"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="mukesh_"),
+                    ],
+                ]
+            ),
+        )
     elif query.data == "mukesh_support":
         query.message.edit_caption("**๏ Click on the button to get more about me**"
             f"\n\nIf you find any error or bug on bot or want to give any feedback about the bot then you are welcome to support chat  (✿◠‿◠).",
@@ -427,6 +456,24 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
+    elif query.data=="moon":
+        query.message.edit_caption("""Hey,
+
+I am Kitty bot ✨
+I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤""",parse_mode=ParseMode.MARKDOWN,
+            
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
+                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
+                    ],
+                    [
+                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support")
+                    ]
+                ]
+            ),
+        )
     elif query.data == "mukesh_back":
         first_name = update.effective_user.first_name 
         query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
@@ -445,7 +492,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_")
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon")
                     ],                
                     [
                         InlineKeyboardButton(text="Music 🎧", callback_data="Music_"),
@@ -525,7 +572,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_"),
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon") 
                     ],                    
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
                 ]
@@ -615,34 +662,6 @@ Gaya tha kya yaha chhod ke 😂😂?
         )
 
         
-def Music_about_callback(update: Update, context: CallbackContext):
-    query = update.callback_query
-    if query.data == "Music_":
-        query.message.edit_caption(f"""
- Hi, i am a Kitty X player ...
-
-Here is the help menu for Kitty music player ✨👀
-""",
-            parse_mode=ParseMode.MARKDOWN,
-            
-            reply_markup=InlineKeyboardMarkup(
-                [                    
-                    [
-                        InlineKeyboardButton(
-                            text="• Admin •", callback_data="Music_admin"
-                        ),
-                        InlineKeyboardButton(
-                            text="• User •", callback_data="Music_play"
-                        ),
-                        InlineKeyboardButton(text="• Sudo •", callback_data="Music_bot"
-                        ),
-                        ],
-                    [
-                        InlineKeyboardButton(text="✨ Extra ✨", callback_data="Music_extra"),InlineKeyboardButton(text="• Back •", callback_data="Main_help")
-                    ]
-                ]
-            ),
-            )  
     elif query.data == "Music_admin":
         query.message.edit_caption(f"*✨ Admin commands :*"
             f"""
