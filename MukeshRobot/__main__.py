@@ -519,9 +519,13 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     [
                         InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/About_ur_Moonshining/5"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
-                    ],           
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
-                ]
+                    ],                    
+                    [
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_"),
+                        InlineKeyboardButton(text="⭐ Help ⭐", callback_data="Main_help")
+                    ],
+                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
+               ]
             ),
         )
     elif query.data=="expert_help":
