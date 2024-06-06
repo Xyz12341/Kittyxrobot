@@ -507,39 +507,7 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
                     [InlineKeyboardButton(text="• Back •", callback_data="Main_help")]
                 ]
             ),
-        )                         
-def Moon_about_callback(update: Update, context: CallbackContext):
-    query = update.callback_query
-    if query.data == "moon_":
-        uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption("""Join our groups....🧊
-
-For more info about kitty updates check support 🎄👀""",
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
-                        ),
-                        InlineKeyboardButton(
-                            text="ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
-                        ),
-                        InlineKeyboardButton(
-                            text="Share your query💡", url="https://t.me/kittybothub"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="◁", callback_data="Main_help"),
-                    ],
-                ]
-            ),
-        )                       
+        )             
     elif query.data=="advance_help":
         query.message.edit_caption("""Hey,
 
@@ -551,13 +519,9 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     [
                         InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/About_ur_Moonshining/5"),
                         InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
-                    ],
-                    [
-                        InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_")
-                    ],                    
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
-               ]
+                    ],           
+                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
+                ]
             ),
         )
     elif query.data=="expert_help":
