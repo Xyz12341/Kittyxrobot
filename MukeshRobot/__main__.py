@@ -525,10 +525,10 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_"),
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_")
                     ],                    
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
-                ]
+               ]
             ),
         )
     elif query.data=="expert_help":
@@ -559,7 +559,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
                         InlineKeyboardButton(text="💡 Github 💡", url="https://t.me/kittybothub") 
                     ],
                     [InlineKeyboardButton(text="◁", callback_data="mukesh_"),]
-                ]
+               ]
             ),
         )
     elif query.data=="donation_help":
