@@ -399,35 +399,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "shine":
-        query.message.edit_caption("""Join our groups....🧊
-
-For more info about kitty updates check support 🎄👀""",
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
-                        ),
-                        InlineKeyboardButton(
-                            text="🥀ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="👨‍💻 ᴅᴇᴠᴇʟᴏᴩᴇʀ 👨‍💻", callback_data="advance_help"
-                        ),
-                        InlineKeyboardButton(
-                            text="💡 Share your query 💡", url="https://t.me/kittybothub"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="◁", callback_data="mukesh_"),
-                    ],
-                ]
-            ),
-        )
     elif query.data == "mukesh_support":
         query.message.edit_caption("**๏ Click on the button to get more about me**"
             f"\n\nIf you find any error or bug on bot or want to give any feedback about the bot then you are welcome to support chat  (✿◠‿◠).",
@@ -453,24 +424,6 @@ For more info about kitty updates check support 🎄👀""",
                     [
                         InlineKeyboardButton(text="◁", callback_data="mukesh_"),
                     ],
-                ]
-            ),
-        )
-    elif query.data=="moon":
-        query.message.edit_caption("""Hey,
-
-I am Kitty bot ✨
-I am created with love by my [🇲σ᭡፝֟ɳ🌙](t.me/moonshining2) ❤""",parse_mode=ParseMode.MARKDOWN,
-            
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"t.me/moonshining4"),
-                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
-                    ],
-                    [
-                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_support")
-                    ]
                 ]
             ),
         )
@@ -553,9 +506,7 @@ For more info about kitty updates check support 🎄👀""",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Main_help"
-                        ),
-                    ],
+                    [InlineKeyboardButton(text="◁", callback_data="Main_help"),]
                 ]
             ),
         )                         
