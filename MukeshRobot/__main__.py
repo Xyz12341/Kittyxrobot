@@ -521,13 +521,13 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                [
                     [
                         InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/About_ur_Moonshining/5"),
-                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
+                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl")
                     ],
                     [
                         InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
-                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_") 
+                        InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_")
                     ],                    
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),]
+                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
                 ]
             ),
         )
@@ -558,7 +558,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
                         InlineKeyboardButton(text="👩‍💻 Developer 👩‍💻", callback_data="advance_help"),
                         InlineKeyboardButton(text="💡 Github 💡", url="https://t.me/kittybothub") 
                     ],
-                    [InlineKeyboardButton(text="◁", callback_data="mukesh_"),]
+                    [InlineKeyboardButton(text="◁", callback_data="mukesh_")]
                 ]
             ),
         )
@@ -1125,4 +1125,3 @@ if __name__ == "__main__":
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
-    
