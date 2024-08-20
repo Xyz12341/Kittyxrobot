@@ -78,7 +78,7 @@ PM_START_TEXT = """
 *❖ нᴇʏ* {} 
 ❖ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ! 
 •─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─• 
-❍ ɪ ᴀᴍ ˹𝐊íԵԵყ ✘ 𝚁օɓօԵ˼
+❍ ɪ ᴀᴍ ˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼
 ❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs 
 •─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─• 
 ❖ ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ʙᴏᴛ 
@@ -95,11 +95,11 @@ buttons = [
         ),
     ],
    [
-        InlineKeyboardButton(text="☄️About me ☄️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❄ Help ❄", callback_data="Main_help"),
+        InlineKeyboardButton(text="⭐ About me⭐", callback_data="mukesh_"),
+        InlineKeyboardButton(text="✨ Help ✨", callback_data="Main_help"),
       ],    
    [
-        InlineKeyboardButton(text="🌔 Owner 🌖", callback_data="advance_help"),
+        InlineKeyboardButton(text="❄ Owner ❄", callback_data="advance_help"),
         InlineKeyboardButton(text="🎄 Update 🎄", url=f"t.me/kittyxupdates"),
       ],    
 
