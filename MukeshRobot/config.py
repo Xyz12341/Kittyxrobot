@@ -16,7 +16,7 @@ class Config(object):
     # RECOMMENDED
     DATABASE_URL = ""  # A sql database url from elephantsql.com
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "4Z5UHYEW3LJ7U99J"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
     TIME_API_KEY = "V33SSMCSDT6L"
     
