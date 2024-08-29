@@ -18,7 +18,7 @@ class Config(object):
     CASH_API_KEY = (
         ""  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""
+    TIME_API_KEY = "V33SSMCSDT6L"
     
     # Get your API key from https://timezonedb.com/api
 
