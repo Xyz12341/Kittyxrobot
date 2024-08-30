@@ -403,7 +403,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="⭐ Support ⭐", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
+                            text="⭐ Support ⭐", url=f"https://t.me/+fPsCUlG964E5MzY1"
                         ),
                         InlineKeyboardButton(
                             text="🥀 Update 🥀", url=f"t.me/kittyxupdates"
@@ -514,7 +514,7 @@ I am created with love by my [🇲σ᭡፝֟ɳ🌙](https://t.me/About_ur_Moonsh
                [
                     [
                         InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/About_ur_Moonshining/5"),
-                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
+                        InlineKeyboardButton(text="Owner's clan 🎄", url=f"https://t.me/+fPsCUlG964E5MzY1") 
                     ],                    
                     [
                         InlineKeyboardButton(text="🎄 Galaxy 🎄", callback_data="moon_"),
@@ -544,7 +544,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
             reply_markup=InlineKeyboardMarkup(
                [
                     [
-                        InlineKeyboardButton(text="⭐ Support ⭐", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"),
+                        InlineKeyboardButton(text="⭐ Support ⭐", url=f"https://t.me/+fPsCUlG964E5MzY1"),
                         InlineKeyboardButton(text="🥀 Update 🥀", url=f"t.me/kittyxupdates")
                     ],                    
                     [
@@ -560,7 +560,7 @@ For more info about kitty updates check website 🎄👀""",parse_mode=ParseMode
 
 We provide 24×7 managment and music service so we also need some help for it, donate now via:-
 • Upi id » @kittyxupdates
-• You can also donate by contacting [developer](https://t.me/+jgfzmJ0VxCwyYWRl) ✅
+• You can also donate by contacting [developer](https://t.me/about_ur_moonshining/5) ✅
 
 Your small amount can help us and kitty to grow more ✨""",parse_mode=ParseMode.MARKDOWN,
             
@@ -587,7 +587,7 @@ For more info about kitty updates check support 🎄👀
                 [
                     [
                         InlineKeyboardButton(
-                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+jgfzmJ0VxCwyYWRl"
+                            text="🍻 24/7 𝐂ɦเℓℓ 🥂", url=f"https://t.me/+fPsCUlG964E5MzY1"
                         ),
                         InlineKeyboardButton(
                             text="ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs🥀", url=f"t.me/kittyxupdates"
@@ -637,7 +637,7 @@ Gaya tha kya yaha chhod ke 😂😂?
                 [
                     [
                         InlineKeyboardButton(text="Developer 👩‍💻", callback_data="advance_help"),
-                        InlineKeyboardButton(text="• sᴏᴜʀᴄᴇ •", url=f"https://t.me/+jgfzmJ0VxCwyYWRl") 
+                        InlineKeyboardButton(text="• sᴏᴜʀᴄᴇ •", url=f"https://t.me/+fPsCUlG964E5MzY1") 
                     ],
                     [InlineKeyboardButton(text="• Back •", callback_data="mukesh_")]
                 ]
